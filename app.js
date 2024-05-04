@@ -92,7 +92,7 @@ const fetchAndProcessFeed = async () => {
 //     bot.sendMessage(chatId, 'I reaceived your message.');
 // });
 
-const job = new CronJob('*/15 * * * * *', fetchAndProcessFeed); // Runs every hour
+const job = new CronJob('*/60 * * * * *', fetchAndProcessFeed); // Runs every hour
 job.start();
 
 
