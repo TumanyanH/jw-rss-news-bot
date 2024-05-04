@@ -4,7 +4,7 @@ const CronJob = require('cron').CronJob;
 let last_id = '3aba9f01b27aafa1c6aaabcf8c35e9f8';
 
 
-const token = '7086608714:AAElWGk6bq-DUmPtEZ8OAd_2-zpXdBwqoYE';
+const token = '7083060049:AAG1qN1w2QNaeShGrq3mqTwSLEqoNQ_n5BI';
 const rssFeedUrl = 'https://www.jw.org/en/whats-new/rss/WhatsNewWebArticles/feed.xml'; // Replace with your RSS feed URL
 
 const bot = new TelegramBot(token, { polling: true });
