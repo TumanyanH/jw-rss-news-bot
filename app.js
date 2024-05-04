@@ -94,3 +94,10 @@ const fetchAndProcessFeed = async () => {
 
 const job = new CronJob('*/15 * * * * *', fetchAndProcessFeed); // Runs every hour
 job.start();
+
+
+// redundant staff for render
+const express = require("express")
+const app = express();
+
+app.listen(process.env.PORT || 3000, (err) => { throw err });
