@@ -100,4 +100,4 @@ job.start();
 const express = require("express")
 const app = express();
 
-app.listen(process.env.PORT || 3000, (err) => { throw err });
+app.listen(process.env.PORT || 3000, (err) => { console.log(err)  });
