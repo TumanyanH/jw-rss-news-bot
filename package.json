@@ -1,0 +1,21 @@
+{
+  "name": "news-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^3.1.7",
+    "node-telegram-bot-api": "^0.65.1",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.5.7"
+  }
+}
